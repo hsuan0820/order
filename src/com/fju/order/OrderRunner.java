@@ -27,7 +27,7 @@ public class OrderRunner {
         for (int i = 0; i < orders.size(); i++) {
             Order order = orders.get(i);
             System.out.println(order.amount + "\t" + order.delivery.name + "\t" +
-                    order.shipFeed + "\t" + order.total());
+                    order.shipFeed + '\t' + order.total());
         }
     }
 }
